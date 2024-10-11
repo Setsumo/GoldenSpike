@@ -1,0 +1,19 @@
+@media (min-width: 1024px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr; 
+    }
+
+    .main {
+        grid-template-columns: 3fr 1fr; 
+    }
+
+    .nav {
+        order: 1; 
+    }
+
+    .footer {
+        grid-column: 1 / -1;
+    }
+}
+
